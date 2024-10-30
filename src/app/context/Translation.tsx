@@ -8,7 +8,6 @@ import es from '../locales/es.json';
 
 const translations: Record<Language, Translations> = { en, es };
 
-// Create context with a default value of `undefined` to handle initialization
 export const TranslationContext = createContext<TranslationContextType | undefined>(undefined);
 
 interface TranslationProviderProps {
